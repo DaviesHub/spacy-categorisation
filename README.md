@@ -38,10 +38,10 @@ To run the script outside of Docker, follow these steps:
 To run the script inside Docker, follow these steps:
 
 1. Install Docker on the machine if it is not already installed.
-1. Clone this repository and navigate to the root directory.
-2. Build the Docker image: docker build -t <'image name'>.
-3. Run the Docker container: docker run <'image name'>.
-4. The output of the script will be printed to the console.
+2. Clone this repository and navigate to the root directory.
+3. Build the Docker image: docker build -t <'image name'>.
+4. Run the Docker container: docker run <'image name'>.
+5. The output of the script will be printed to the console.
 
 ## Contributions
 Contributions to the project are welcome. Please submit a pull request with your changes.
