@@ -37,9 +37,10 @@ To run the script outside of Docker, follow these steps:
 ## Running the Application with Docker
 To run the script inside Docker, follow these steps:
 
-1. Clone this repository and navigate to the root directory
-2. Build the Docker image: docker build -t spacy-tokenizer .
-3. Run the Docker container: docker run spacy-tokenizer
+1. Install Docker on the machine if it is not already installed.
+1. Clone this repository and navigate to the root directory.
+2. Build the Docker image: docker build -t <'image name'>.
+3. Run the Docker container: docker run <'image name'>.
 4. The output of the script will be printed to the console.
 
 ## Contributions
